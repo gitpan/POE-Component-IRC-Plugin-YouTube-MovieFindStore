@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name:                POE-Component-IRC-Plugin-YouTube-MovieFindStore
+version:             0.01
+abstract:            plugin for finding,
+license:             ~
+author:              
+    - Zoffix Znet <zoffix@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    File::Spec:                    3.2501
+    POE::Component::IRC::Plugin:   0.08
+    POE::Component::WWW::YouTube::VideoURI: 0.04
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3

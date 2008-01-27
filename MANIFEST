@@ -1,0 +1,10 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/POE-Component-IRC-Plugin-YouTube-MovieFindStore.t
+t/99-pod-coverage.t
+t/98-pod.t
+lib/POE/Component/IRC/Plugin/YouTube/MovieFindStore.pm
+examples/tube_bot.pl
+META.yml                                 Module meta-data (added by MakeMaker)
