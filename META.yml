@@ -1,16 +1,26 @@
---- #YAML:1.0
-name:                POE-Component-IRC-Plugin-YouTube-MovieFindStore
-version:             0.01
-abstract:            plugin for finding,
-license:             ~
-author:              
-    - Zoffix Znet <zoffix@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
-    File::Spec:                    3.2501
-    POE::Component::IRC::Plugin:   0.08
-    POE::Component::WWW::YouTube::VideoURI: 0.04
+---
+name: POE-Component-IRC-Plugin-YouTube-MovieFindStore
+version: 0.02
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: |-
+  plugin for finding,
+  resolving .FLV, and optionally storing YouTube URIs.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  File::Spec: 3.2701
+  POE: 0.9999
+  POE::Component::IRC::Plugin: 0.09
+  POE::Component::WWW::YouTube::VideoURI: 0.06
+build_requires:
+  Test::More: 0
+provides:
+  POE::Component::IRC::Plugin::YouTube::MovieFindStore:
+    file: lib/POE/Component/IRC/Plugin/YouTube/MovieFindStore.pm
+    version: 0.02
+generated_by: Module::Build version 0.2808
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
